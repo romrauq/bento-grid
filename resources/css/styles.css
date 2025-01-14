@@ -101,7 +101,7 @@ body {
 	.write-div {
 		background-color: var(--Yellow-500);
 	}
-	.write-div {
+	.write-div > img {
 		width: 60%;
 	}
 }
