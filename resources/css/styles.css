@@ -23,11 +23,23 @@
 	src: url("../fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf");
 }
 
-body {}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
 
-.main-container {}
+.main-container {
+	font-size: 18px;
+	margin: auto 0;
+}
 
-.grid-div {}
+.grid-div {
+	padding: 20px;
+	border-radius: 10px;
+}
 
 .attribution {
 	font-size: 11px;
@@ -36,4 +48,60 @@ body {}
 
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+@media (max-width: 475px) {
+	.main-container {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+	.illustration-image {
+		width: 100%;
+	}
+	/* .grid-div {} */
+	.social-div {
+		background-color: var(--Purple-500);
+	}
+	.social-div > img {
+		width: 60%;
+	}
+	.manage-div {
+		background-color: var(--White);
+	}
+	/* .manage-div {} */
+	.maintain-div {
+		background-color: var(--Yellow-500);
+	}
+	.maintain-div > img {
+		width: 60%;
+	}
+	.schedule-div {
+		background-color: var(--Purple-100);
+	}
+	/* .schedule-div>img {} */
+	.grow-div {
+		background-color: var(--Purple-500);
+	}
+	.grow-div > img {
+		width: 60%;
+	}
+	.fifty-div {
+		background-color: var(--White);
+	}
+	.fifty-div > img {
+		width: 60%;
+	}
+	.create-div {
+		background-color: var(--Yellow-100);
+	}
+	.create-div > img {
+		width: 60%;
+	}
+	.write-div {
+		background-color: var(--Yellow-500);
+	}
+	.write-div {
+		width: 60%;
+	}
 }
