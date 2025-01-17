@@ -3,7 +3,6 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
 :root {
 	--Purple-100: hsl(254, 88%, 90%);
 	--Purple-500: hsl(256, 67%, 59%);
@@ -12,7 +11,6 @@
 	--White: hsl(0, 0%, 100%);
 	--Black: hsl(0, 0%, 7%);
 }
-
 @font-face {
 	font-family: DM Sans;
 	src: url("../fonts/DMSans-VariableFont_opsz\,wght.ttf");
@@ -22,7 +20,6 @@
 	font-family: DM Sans Italic;
 	src: url("../fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf");
 }
-
 body {
 	height: 100vh;
 	display: flex;
@@ -30,7 +27,6 @@ body {
 	align-items: center;
 	justify-content: space-between;
 }
-
 .main-container {
 	font-family: DM Sans;
 	display: grid;
@@ -206,7 +202,6 @@ body {
 	font-size: 11px;
 	text-align: center;
 }
-
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
@@ -216,46 +211,61 @@ body {
 		display: flex;
 		flex-direction: column;
 		gap: 30px;
+		margin: 30px 0 0 0;
 	}
 	.illustration-image {
 		width: 100%;
 	}
-	/* .grid-div {} */
-	/* .social-div {
-		} */
-	.social-div > img {
+	.grid-item {
+		font-size: 20px;
+		display: flex;
+		gap: 10px;
+	}
+	.social-grid-item > img {
 		width: 60%;
 	}
-	/* .manage-div {
-		} */
-	/* .manage-div {} */
-	/* .maintain-div {
-			} */
-	.maintain-div > img {
+	.subtext {
+		font-size: 18px;
+	}
+	.manage-grid-item {
+		font-weight: 600;
+	}
+	.manage-grid-item {
+		font-weight: 500;
+	}
+	.maintain-grid-item > img {
 		width: 60%;
 	}
 	.schedule-grid-item {
+		font-weight: 600;
 		text-align: center;
 	}
-	/* .schedule-div > img {} */
-	/* .grow-div {
-				} */
-	.grow-div > img {
+	.schedule-subtext {
+		font-weight: 300;
+	}
+	.grow-grid-item {
+		flex-direction: column;
+		text-align: center;
+	}
+	.grow-text {
 		width: 60%;
 	}
-	/* .fifty-div {
-					} */
-	.fifty-div > img {
+	.grow-grid-item > img {
+		width: 70%;
+	}
+	.fifty-grid-item > img {
 		width: 60%;
 	}
-	/* .create-div {
-	} */
-	.create-div > img {
+	.create-grid-item {
+		gap: 20px;
+	}
+	.create-grid-item > img {
 		width: 60%;
 	}
-	/* .write-div {
-		} */
-	.write-div > img {
+	.write-grid-item > img {
 		width: 60%;
+	}
+	.attribution {
+		display: none;
 	}
 }
