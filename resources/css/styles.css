@@ -39,7 +39,6 @@ body {
 	font-size: 18px;
 	width: 650px;
 	height: 600px;
-	padding: 16px;
 	margin: auto 0;
 }
 .grid-item {
@@ -52,7 +51,6 @@ body {
 .illustration-image {
 	max-width: 100%;
 	height: auto;
-	margin-top: 16px;
 }
 .social-grid-item {
 	grid-row-start: 1;
