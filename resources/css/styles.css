@@ -42,7 +42,7 @@ body {
 	padding: 16px;
 	margin: auto 0;
 }
-.grid-div {
+.grid-item {
 	text-align: center;
 	padding: 20px;
 	background-color: #fff;
@@ -54,7 +54,7 @@ body {
 	height: auto;
 	margin-top: 16px;
 }
-.social-div {
+.social-grid-item {
 	grid-row-start: 1;
 	grid-row-end: 5;
 	grid-column-start: 4;
@@ -62,21 +62,21 @@ body {
 	color: #fff;
 	background-color: var(--Purple-500);
 }
-.manage-div {
+.manage-grid-item {
 	grid-row-start: 5;
 	grid-row-end: 8;
 	grid-column-start: 4;
 	grid-column-end: 7;
 	background-color: #ecf0f1;
 }
-.maintain-div {
+.maintain-grid-item {
 	grid-row-start: 5;
 	grid-row-end: 8;
 	grid-column-start: 7;
 	grid-column-end: 10;
 	background-color: var(--Yellow-500);
 }
-.schedule-div {
+.schedule-grid-item {
 	color: var(--White);
 	grid-row-start: 1;
 	grid-row-end: 8;
@@ -84,52 +84,52 @@ body {
 	grid-column-end: 13;
 	background-color: var(--Purple-100);
 }
-.grow-div {
+.grow-grid-item {
 	grid-row-start: 8;
 	grid-row-end: 12;
 	grid-column-start: 7;
 	grid-column-end: 13;
 	background-color: var(--Purple-500);
 }
-.fifty-div {
+.fifty-grid-item {
 	grid-row-start: 8;
 	grid-row-end: 12;
 	grid-column-start: 4;
 	grid-column-end: 7;
 	background-color: var(--White);
 }
-.create-div {
+.create-grid-item {
 	grid-row-start: 1;
 	grid-row-end: 6;
 	grid-column-start: 1;
 	grid-column-end: 4;
 	background-color: var(--Yellow-100);
 }
-.write-div {
+.write-grid-item {
 	grid-row-start: 6;
 	grid-row-end: 12;
 	grid-column-start: 1;
 	grid-column-end: 4;
 	background-color: var(--Yellow-500);
 }
-.social-div > img {
+.social-grid-item > img {
 	width: 60%;
 }
-/* .manage-div > img {} */
-.maintain-div > img {
+/* .manage-grid-item > img {} */
+.maintain-grid-item > img {
 	width: 60%;
 }
-/* .schedule-div>img {} */
-.grow-div > img {
+/* .schedule-grid-item>img {} */
+.grow-grid-item > img {
 	width: 60%;
 }
-.fifty-div > img {
+.fifty-grid-item > img {
 	width: 60%;
 }
-.create-div > img {
+.create-grid-item > img {
 	width: 60%;
 }
-.write-div > img {
+.write-grid-item > img {
 	width: 60%;
 }
 .attribution {
